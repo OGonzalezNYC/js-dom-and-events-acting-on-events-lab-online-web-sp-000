@@ -37,6 +37,6 @@ function clearEmployeeListOnLinkClick() {
     // while (y.firstChild) {
     //   y.removeChild(y.firstChild);
     // }
-    
+    y.innerHTML = '';
   });
 }
