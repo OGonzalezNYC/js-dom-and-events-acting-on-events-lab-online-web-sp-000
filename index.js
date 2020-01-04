@@ -31,10 +31,10 @@ function addNewLiOnClick() {
 
 
 function clearEmployeeListOnLinkClick() {
-  let x = document.querySelector('ul');
-  // for (i = 0; i < x.length; i++) {
-  //   x.remove(x[i]);
-  // }
+  let x = document.querySelector('ul').children;
+  for (i = 0; i < x.length; i++) {
+    x.remove(x[i]);
+  }
   if (x.children.length > 0) {
     
   }
