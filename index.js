@@ -31,7 +31,7 @@ function addNewLiOnClick() {
 
 
 function clearEmployeeListOnLinkClick() {
-  
+  document.querySelector('a');
   let x = document.querySelector('ul').children;
   for (i = 0; i < x.length; i++) {
     x[i] = '';
