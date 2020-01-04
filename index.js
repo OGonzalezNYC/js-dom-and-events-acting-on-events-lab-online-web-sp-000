@@ -39,7 +39,5 @@ function clearEmployeeListOnLinkClick() {
     for (i = 0; i < y.length; i++) {
       y[i] = '';
     }
-    
   });
-  
 }
